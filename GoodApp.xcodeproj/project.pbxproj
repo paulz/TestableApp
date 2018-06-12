@@ -33,6 +33,13 @@
 			remoteGlobalIDString = 2735F9EF20D07F2F00DE1EB3;
 			remoteInfo = GoodApp;
 		};
+		2735FA3120D08D8900DE1EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2735F9E820D07F2F00DE1EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2735F9EF20D07F2F00DE1EB3;
+			remoteInfo = GoodApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -217,6 +224,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2735FA3220D08D8900DE1EB3 /* PBXTargetDependency */,
 			);
 			name = GoodAppTestsWithoutHost;
 			productName = GoodAppTestsWithoutHost;
@@ -351,6 +359,11 @@
 			isa = PBXTargetDependency;
 			target = 2735F9EF20D07F2F00DE1EB3 /* GoodApp */;
 			targetProxy = 2735FA1220D07F3100DE1EB3 /* PBXContainerItemProxy */;
+		};
+		2735FA3220D08D8900DE1EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2735F9EF20D07F2F00DE1EB3 /* GoodApp */;
+			targetProxy = 2735FA3120D08D8900DE1EB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
