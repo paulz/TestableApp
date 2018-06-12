@@ -15,6 +15,7 @@
 		2735FA0020D07F3000DE1EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2735F9FE20D07F3000DE1EB3 /* LaunchScreen.storyboard */; };
 		2735FA0B20D07F3000DE1EB3 /* GoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735FA0A20D07F3000DE1EB3 /* GoodAppTests.swift */; };
 		2735FA1620D07F3100DE1EB3 /* GoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735FA1520D07F3100DE1EB3 /* GoodAppUITests.swift */; };
+		2735FA2C20D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2735FA2B20D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		2735FA1120D07F3100DE1EB3 /* GoodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2735FA1520D07F3100DE1EB3 /* GoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAppUITests.swift; sourceTree = "<group>"; };
 		2735FA1720D07F3100DE1EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2735FA2920D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodAppTestsWithoutHost.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2735FA2B20D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAppTestsWithoutHost.swift; sourceTree = "<group>"; };
+		2735FA2D20D08BEB00DE1EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2735FA2620D08BEB00DE1EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +93,7 @@
 				2735F9F220D07F2F00DE1EB3 /* GoodApp */,
 				2735FA0920D07F3000DE1EB3 /* GoodAppTests */,
 				2735FA1420D07F3100DE1EB3 /* GoodAppUITests */,
+				2735FA2A20D08BEB00DE1EB3 /* GoodAppTestsWithoutHost */,
 				2735F9F120D07F2F00DE1EB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +104,7 @@
 				2735F9F020D07F2F00DE1EB3 /* GoodApp.app */,
 				2735FA0620D07F3000DE1EB3 /* GoodAppTests.xctest */,
 				2735FA1120D07F3100DE1EB3 /* GoodAppUITests.xctest */,
+				2735FA2920D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +139,15 @@
 				2735FA1720D07F3100DE1EB3 /* Info.plist */,
 			);
 			path = GoodAppUITests;
+			sourceTree = "<group>";
+		};
+		2735FA2A20D08BEB00DE1EB3 /* GoodAppTestsWithoutHost */ = {
+			isa = PBXGroup;
+			children = (
+				2735FA2B20D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.swift */,
+				2735FA2D20D08BEB00DE1EB3 /* Info.plist */,
+			);
+			path = GoodAppTestsWithoutHost;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +206,23 @@
 			productReference = 2735FA1120D07F3100DE1EB3 /* GoodAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2735FA2820D08BEB00DE1EB3 /* GoodAppTestsWithoutHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2735FA3020D08BEB00DE1EB3 /* Build configuration list for PBXNativeTarget "GoodAppTestsWithoutHost" */;
+			buildPhases = (
+				2735FA2520D08BEB00DE1EB3 /* Sources */,
+				2735FA2620D08BEB00DE1EB3 /* Frameworks */,
+				2735FA2720D08BEB00DE1EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodAppTestsWithoutHost;
+			productName = GoodAppTestsWithoutHost;
+			productReference = 2735FA2920D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +244,9 @@
 						CreatedOnToolsVersion = 9.4;
 						TestTargetID = 2735F9EF20D07F2F00DE1EB3;
 					};
+					2735FA2820D08BEB00DE1EB3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
 				};
 			};
 			buildConfigurationList = 2735F9EB20D07F2F00DE1EB3 /* Build configuration list for PBXProject "GoodApp" */;
@@ -223,6 +265,7 @@
 				2735F9EF20D07F2F00DE1EB3 /* GoodApp */,
 				2735FA0520D07F3000DE1EB3 /* GoodAppTests */,
 				2735FA1020D07F3100DE1EB3 /* GoodAppUITests */,
+				2735FA2820D08BEB00DE1EB3 /* GoodAppTestsWithoutHost */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +289,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2735FA0F20D07F3100DE1EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2735FA2720D08BEB00DE1EB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,6 +328,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2735FA1620D07F3100DE1EB3 /* GoodAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2735FA2520D08BEB00DE1EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2735FA2C20D08BEB00DE1EB3 /* GoodAppTestsWithoutHost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +600,40 @@
 			};
 			name = Release;
 		};
+		2735FA2E20D08BEB00DE1EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodAppTestsWithoutHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udemy.GoodAppTestsWithoutHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2735FA2F20D08BEB00DE1EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodAppTestsWithoutHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udemy.GoodAppTestsWithoutHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,6 +669,15 @@
 			buildConfigurations = (
 				2735FA2120D07F3100DE1EB3 /* Debug */,
 				2735FA2220D07F3100DE1EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2735FA3020D08BEB00DE1EB3 /* Build configuration list for PBXNativeTarget "GoodAppTestsWithoutHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2735FA2E20D08BEB00DE1EB3 /* Debug */,
+				2735FA2F20D08BEB00DE1EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
