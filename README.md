@@ -34,4 +34,4 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
  ### Expected Results:
  
- GoodAppTestsWithoutHost should run test as it was able to compile and import app module
+ `GoodAppTestsWithoutHost` should run tests just as `GoodAppTests` scheme.
